@@ -1,0 +1,9 @@
+**/.vscode
+**/node_modules
+**/venv
+**/dist
+**/logs
+
+**/.env
+**/bun.lock
+**/package.lock.json
