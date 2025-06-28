@@ -5,6 +5,7 @@
       "#/*": ["./*"],
       "@api/*": ["apps/api/src/*"],
       "@app/*": ["apps/app/src/*"],
+      "@bot": ["apps/bot/src"],
     }
   }
 }

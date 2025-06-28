@@ -14,7 +14,15 @@
     "allowJs": true,
     "checkJs": true,
     "isolatedModules": true,
-    "moduleDetection": "force"
+    "moduleDetection": "force",
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["src/*"],
+      "@common/*": ["../../libs/common/*"],
+      "@micro/*": ["../../libs/microservices/*"],
+    },
   },
   "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.svelte"]
 }

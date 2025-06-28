@@ -10,6 +10,12 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["src/*"],
+      "@common/*": ["../../libs/common/*"],
+      "@micro/*": ["../../libs/microservices/*"],
+    },
     "incremental": true,
     "skipLibCheck": true,
     "strictNullChecks": true,
